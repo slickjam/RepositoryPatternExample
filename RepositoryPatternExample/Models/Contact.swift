@@ -10,7 +10,7 @@ import Foundation
 struct Contact: Identifiable {
     let id: String
     var firstName: String
-    var lastName: String
+    var lastName: String?
     var phoneNumber: String
-    var address: String
+    var email: String?
 }

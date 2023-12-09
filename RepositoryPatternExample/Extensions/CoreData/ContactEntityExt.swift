@@ -9,6 +9,10 @@ import Foundation
 
 extension ContactEntity {
     func toModel() -> Contact {
-        return Contact(id: self.id)
+        return Contact(id: self.id,
+                       firstName: self.firstName,
+                       lastName: self.lastName,
+                       phoneNumber: self.phoneNumber,
+                       email: self.email)
     }
 }

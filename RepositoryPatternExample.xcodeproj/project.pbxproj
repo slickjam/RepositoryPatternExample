@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		800C7D7F2B24E8480080A027 /* ContactRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 800C7D7E2B24E8480080A027 /* ContactRow.swift */; };
 		8022EBFA2B24C29000851289 /* VoiceEntity+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8022EBF82B24C29000851289 /* VoiceEntity+CoreDataClass.swift */; };
 		8022EBFB2B24C29000851289 /* VoiceEntity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8022EBF92B24C29000851289 /* VoiceEntity+CoreDataProperties.swift */; };
 		8022EBFD2B24C2B300851289 /* VoiceEntityExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8022EBFC2B24C2B300851289 /* VoiceEntityExt.swift */; };
@@ -52,6 +53,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		800C7D7E2B24E8480080A027 /* ContactRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactRow.swift; sourceTree = "<group>"; };
 		8022EBF82B24C29000851289 /* VoiceEntity+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "VoiceEntity+CoreDataClass.swift"; sourceTree = "<group>"; };
 		8022EBF92B24C29000851289 /* VoiceEntity+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "VoiceEntity+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		8022EBFC2B24C2B300851289 /* VoiceEntityExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceEntityExt.swift; sourceTree = "<group>"; };
@@ -107,6 +109,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		800C7D7D2B24E8320080A027 /* Contacts */ = {
+			isa = PBXGroup;
+			children = (
+				802669C22B24BB43002EAC11 /* ContactView.swift */,
+				800C7D7E2B24E8480080A027 /* ContactRow.swift */,
+			);
+			path = Contacts;
+			sourceTree = "<group>";
+		};
 		80988BB32B1BA09200C35159 /* CoreData */ = {
 			isa = PBXGroup;
 			children = (
@@ -129,8 +140,8 @@
 		80988BBF2B1C2A4A00C35159 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				800C7D7D2B24E8320080A027 /* Contacts */,
 				802669C42B24BD48002EAC11 /* CallsView.swift */,
-				802669C22B24BB43002EAC11 /* ContactView.swift */,
 				80988BC22B1C2A8C00C35159 /* MainView.swift */,
 			);
 			path = Views;
@@ -382,6 +393,7 @@
 				802669C72B24BE3E002EAC11 /* VoiceLog.swift in Sources */,
 				80B1F1762B1B9911003ADBBF /* ContactEntityExt.swift in Sources */,
 				80B1F1372B1B7CDB003ADBBF /* RepositoryPatternExample.xcdatamodeld in Sources */,
+				800C7D7F2B24E8480080A027 /* ContactRow.swift in Sources */,
 				8022EBFB2B24C29000851289 /* VoiceEntity+CoreDataProperties.swift in Sources */,
 				80988BBA2B1BA0D100C35159 /* ContactEntity+CoreDataProperties.swift in Sources */,
 				802669C52B24BD48002EAC11 /* CallsView.swift in Sources */,

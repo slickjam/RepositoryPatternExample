@@ -2,7 +2,7 @@
 //  ContactEntity+CoreDataProperties.swift
 //  RepositoryPatternExample
 //
-//  Created by Stephen Brooks on 12/2/23.
+//  Created by Stephen Brooks on 12/9/23.
 //
 //
 
@@ -17,6 +17,10 @@ extension ContactEntity {
     }
 
     @NSManaged public var id: String
+    @NSManaged public var firstName: String
+    @NSManaged public var lastName: String?
+    @NSManaged public var phoneNumber: String
+    @NSManaged public var email: String?
 
 }
 

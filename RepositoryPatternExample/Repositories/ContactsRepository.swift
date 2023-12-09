@@ -17,6 +17,11 @@ class ContactsRepository: BaseRepository<ContactEntity, Contact> {
     override func add(element: Contact) {
         let entity = createEntity()
         entity.id = element.id
+        entity.firstName = element.firstName
+        entity.lastName = element.lastName
+        entity.phoneNumber = element.phoneNumber
+        entity.email = element.email
+        
         super.add(element: element)
     }
     

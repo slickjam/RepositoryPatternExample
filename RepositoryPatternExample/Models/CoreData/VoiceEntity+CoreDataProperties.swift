@@ -17,6 +17,9 @@ extension VoiceEntity {
     }
 
     @NSManaged public var id: String
+    @NSManaged public var title: String
+    @NSManaged public var direction: String
+    @NSManaged public var duration: String
 
 }
 
